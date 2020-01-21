@@ -58,8 +58,8 @@ public class BaseClass1 {
 	{
 		if(result.getStatus() == ITestResult.FAILURE)
 			
-		{  String Screenpath= Utility.captureScreenshot(driver);
-			Tester.fail("Test Failed", MediaEntityBuilder.createScreenCaptureFromPath(Screenpath).build());
+		{  String screens= Utility.captureScreenshot(driver);
+			Tester.fail("Test Failed", MediaEntityBuilder.createScreenCaptureFromPath(screens).build());
 		}
 		
 		else if(result.getStatus() == ITestResult.SUCCESS)
