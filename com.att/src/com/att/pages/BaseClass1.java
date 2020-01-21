@@ -30,6 +30,7 @@ public class BaseClass1 {
 	public ExtentTest Tester;
 	
 	// New comment
+	// Added comment from GIT repository
 	@BeforeSuite
 	public void setup()
 	{
