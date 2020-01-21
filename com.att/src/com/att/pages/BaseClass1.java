@@ -29,6 +29,7 @@ public class BaseClass1 {
 	public ExtentReports report;
 	public ExtentTest Tester;
 	
+	// New comment
 	@BeforeSuite
 	public void setup()
 	{
