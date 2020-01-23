@@ -13,11 +13,11 @@ import org.openqa.selenium.support.How;
  * @author pj558w
  *
  */
-public class WordPressLoginPage 
+public class ATTLoginPage 
 
 {  WebDriver driver;
 
-       public WordPressLoginPage( WebDriver driver)
+       public ATTLoginPage( WebDriver driver)
             { 
     	       this.driver= driver;
             }

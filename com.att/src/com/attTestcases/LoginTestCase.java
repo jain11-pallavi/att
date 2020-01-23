@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 import com.att.pages.BaseClass1;
-import com.att.pages.WordPressLoginPage;
+import com.att.pages.ATTLoginPage;
 
 import Helper.Utility;
 
@@ -27,7 +27,7 @@ public class LoginTestCase extends BaseClass1
      {   
     	Tester= report.createTest("validateLoginUser");
     	
-    	WordPressLoginPage loginpage= PageFactory.initElements(driver, WordPressLoginPage.class);
+    	ATTLoginPage loginpage= PageFactory.initElements(driver, ATTLoginPage.class);
     	
     	Tester.info("Test case started"); 
     	  	
