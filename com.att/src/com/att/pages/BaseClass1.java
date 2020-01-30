@@ -53,7 +53,7 @@ public class BaseClass1 {
 		BrowserFactory.quitApplication(driver);
 	}
 	
-	@AfterMethod
+	/* @AfterMethod
 	public void getScreenReport(ITestResult result) throws Exception
 	{
 		if(result.getStatus() == ITestResult.FAILURE)
@@ -69,6 +69,6 @@ public class BaseClass1 {
 		}
 		
 		report.flush();
-		}
+		} */
 			
 }

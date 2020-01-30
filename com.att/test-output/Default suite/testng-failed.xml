@@ -3,15 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.wordpressTestcases.LoginTestCase">
+      <class name="com.attTestcases.HomePageTestCase">
         <methods>
-          <include name="teardown"/>
-          <include name="getScreenReport"/>
           <include name="setup"/>
-          <include name="validateLoginUser"/>
+          <include name="teardown"/>
           <include name="startup"/>
+          <include name="getcolourcapacity"/>
         </methods>
-      </class> <!-- com.wordpressTestcases.LoginTestCase -->
+      </class> <!-- com.attTestcases.HomePageTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

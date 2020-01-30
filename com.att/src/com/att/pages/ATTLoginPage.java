@@ -32,7 +32,6 @@ public class ATTLoginPage
     	 user.sendKeys(username);
     	 pass.sendKeys(password);
     	 submit.click();
-    	 
-    	 // Thread.sleep(5000);
+    	 Thread.sleep(5000);
      }
 }
